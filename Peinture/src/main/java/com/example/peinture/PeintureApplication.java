@@ -17,7 +17,6 @@ public class PeintureApplication {
     @Bean
     CommandLineRunner runner(IProduit iProduit) {
         return args -> {
-            iProduit.save(new Produit("test",123.3,"Rouge",1.5,"Le Roy Merlin","http://www.glow-colors.fr/Files/96851/Img/20/peinture_fluorescente_rouge_paint_red_neon_UV_actif_fluo.png"));
         };
     }
 
